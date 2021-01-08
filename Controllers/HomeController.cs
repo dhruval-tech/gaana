@@ -78,7 +78,7 @@ namespace gaana.Controllers
 
                     var senderEmail = new MailAddress("dhruval.gaana@gmail.com", "Dhruval");
                     var receiverEmail = new MailAddress(Email, "Receiver");
-                    var password = "Dhruv@l123";
+                    var password = "";
                     var subject = "Get Your password";
                     var body = "Your password is Admin@123";
                     var smtp = new SmtpClient
